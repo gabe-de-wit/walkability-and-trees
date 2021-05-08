@@ -17,5 +17,6 @@ The datasets used in the notebook are too large to be shared over GitHub, and ar
 * 2001 census output area shapefile - propriatary
 * 2001 census residential density figures - from https://casweb.ukdataservice.ac.uk/ (details on how to reproduce the report inferred from Stockton et al. (2016))
 
-For the background underpinning the walkability scores and entropy metric, see
+For the background underpinning the walkability scores and entropy metric, see:
+
 **Stockton, J.C., Duke-Williams, O., Stamatakis, E. *et al.* (2016).** Development of a novel walkability index for London, United Kingdom: cross-sectional application to the Whitehall II Study. *BMC Public Health 16, 416 (2016).* https://doi.org/10.1186/s12889-016-3012-2
