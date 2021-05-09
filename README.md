@@ -6,8 +6,14 @@ Combine together two interesting datasets: one on street trees maintained by loc
 
 The a priori hypothesis was that the density of street trees might correlate with walkability calculated from a pure network perspective. Trunk routes on the pedestrian network might be more likely to have benefitted from investment over time; this might include trees, which are known to be complement walkability.
 
+Surprisingly there was no relationship, at least with this walkability metric and tree dataset. The tree dataset is not comprehensive (e.g. it doesn't include privately maintained trees), and the walkability metric used is not by any means a standard.
+
 ## Format
-Analysis was done in Python through a Jupyter notebook, `walkability_and_trees.ipynb`. The GIS parts were handled with GeoPandas, and everything else with the standard pandas/matplotlib/statsmodels/scikitlearn data science libraries. I've included the slides from a presentation of the findings, and `output.csv` includes output area level information on walkability, land area, residential density, and tree density.
+Analysis was done in Python through a Jupyter notebook, `walkability_and_trees.ipynb`. The GIS parts were handled with GeoPandas, and everything else with the standard pandas/matplotlib/statsmodels/scikitlearn data science libraries.
+
+I've included the slides from a presentation of the findings, in `Walkability and Street Trees in London.pptx`.
+
+`output.csv` includes output area level information on walkability, land area, residential density, and tree density.
 
 ## Data and Sources
 The datasets used in the notebook are too large to be shared over GitHub, and are not all straightforward to obtain. Roughly:
